@@ -58,17 +58,17 @@ rm 32
 
 - Crea la partición ESP (Aqui estará el bootloader de Windows y los archivos EFI)
 ```sh
-mkpart esp fat32 11.8GB 12.2GB
+mkpart esp fat32 11GB 11.4GB
 ```
 
 - Creamos la partición principal donde instalaremos Windows
 ```sh
-mkpart win ntfs 12.2GB 70.2GB
+mkpart win ntfs 11.4GB 71.4GB
 ```
 
 - Creamos la partición de datos de Android
 ```sh
-mkpart userdata ext4 70.2GB 127GB
+mkpart userdata ext4 71.4GB 123GB
 ```
 
 
@@ -76,23 +76,23 @@ mkpart userdata ext4 70.2GB 127GB
 
 - Crea la partición ESP (Aqui estará el bootloader de Windows y los archivos EFI)
 ```sh
-mkpart esp fat32 11.8GB 12.2GB
+
 ```
 
 - Creamos la partición principal donde instalaremos Windows
 ```sh
-mkpart win ntfs 12.2GB 132.2GB
+
 ```
 
 - Creamos la partición de datos de Android
 ```sh
-mkpart userdata ext4 132.2GB 255GB
+
 ```
 
 
 ### Hace a ESP la partición de arranque para que la imagen EFI pueda detectarla
 ```sh
-set 32 esp on
+set 18 esp on
 ```
 
 ### Salir de parted
