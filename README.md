@@ -1,4 +1,4 @@
-# Running Windows on the POCO X3 Pro
+# Running Windows on the Redmi Note 9 Pro
 
 <img align="center" src="https://github.com/wormstest/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" alt="Windows 11 Running On A Poco X3 Pro">
 
@@ -68,7 +68,7 @@ PC:
 Phone:
 - [UEFI image](https://github.com/degdag/edk2-msm/releases/tag/V2.1.0)
 
-- [Modified TWRP](https://github.com/Icesito68/Port-Windows-11-Poco-X3-pro/releases/tag/Recoveries)
+- [TWRP](https://forum.xda-developers.com/t/recovery-3-4-0-14-miatoll-twrp-xiaomi-redmi-note-9s-9-pro-9-pro-max-poco-m2-pro.4125487/)
 
 </details> 
 
