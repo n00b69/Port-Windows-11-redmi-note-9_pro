@@ -54,7 +54,25 @@ rm 32
 ### Crear particiones
 > Si recibes cualquier advertencia que te diga ignorar o cancelar, solo escribe i y dale a enter enter
 
-#### Para los modelos de 128Gb:
+#### Para los modelos de 64Gb:
+
+- Crea la partición ESP (Aqui estará el bootloader de Windows y los archivos EFI)
+```sh
+mkpart esp fat32 11GB 11.4GB
+```
+
+- Creamos la partición principal donde instalaremos Windows
+```sh
+mkpart win ntfs 11.4GB 42.4GB
+```
+
+- Creamos la partición de datos de Android
+```sh
+mkpart userdata ext4 42.4GB 59.4GB
+```
+
+
+#### Para modelos de 128Gb:
 
 - Crea la partición ESP (Aqui estará el bootloader de Windows y los archivos EFI)
 ```sh
@@ -69,24 +87,6 @@ mkpart win ntfs 11.4GB 71.4GB
 - Creamos la partición de datos de Android
 ```sh
 mkpart userdata ext4 71.4GB 123GB
-```
-
-
-#### Para modelos de 256Gb:
-
-- Crea la partición ESP (Aqui estará el bootloader de Windows y los archivos EFI)
-```sh
-
-```
-
-- Creamos la partición principal donde instalaremos Windows
-```sh
-
-```
-
-- Creamos la partición de datos de Android
-```sh
-
 ```
 
 
