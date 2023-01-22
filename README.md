@@ -1,6 +1,6 @@
 # Running Windows on the Redmi Note 9 Pro
 
-<img align="center" src="https://github.com/wormstest/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" alt="Windows 11 Running On A Poco X3 Pro">
+<img align="center" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/miatoll.png" alt="Windows 11 Running On A Poco X3 Pro">
 
 ## ⚠️ **Warning**
 
