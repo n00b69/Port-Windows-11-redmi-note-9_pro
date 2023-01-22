@@ -32,12 +32,6 @@ adb shell
 chmod +x /sbin/*
 ```
 
-### Redimensionar la tabla de particiones
-> so that the Windows partitions would fit
-```sh
-sgdisk --resize-table 64 /dev/block/sda
-```
-
 ### Iniciar parted
 ```sh
 parted /dev/block/sda
@@ -48,7 +42,7 @@ parted /dev/block/sda
 >Para asegurarte de que la partición 32 es userdata puedes usar
 >  `print all`
 ```sh
-rm 32
+rm 18
 ```
 
 ### Crear particiones
