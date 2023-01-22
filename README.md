@@ -72,22 +72,6 @@ Phone:
 
 </details> 
 
-<details> 
-
-<summary><strong>For people who followed the old guide, broke their partition table or want to uninstall Windows</strong></summary>
-
-- [English](guide/English/restore-stock-en.md)
-
-- [Español](guide/Español/0-transicion-es.md)
- 
-- [Русский](/guide/Russian/restore-stock-ru.md) 
-
-- [Українська](/guide/Ukrainian/restore-stock-uk.md) 
-
-- [Lietuvių](guide/Lithuanian/restore-stock-lt.md)
-
-</details> 
-
 ### Windows installation instructions
 
 <details> 
