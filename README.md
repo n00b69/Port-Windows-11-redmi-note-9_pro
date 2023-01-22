@@ -12,34 +12,34 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Project status
 
-Beta. Most of the hardware works, but some components do not work yet.
+Alpha, windows boot but usb without usb
 
 #### Features
 
-- [ ] Audio ```Only by USB or Bluetooth```
-- [x] Battery status
-- [x] Bluetooth
-- [x] Brightness
+- [ ] Audio 
+- [] Battery status
+- [] Bluetooth
+- [] Brightness
 - [ ] Camera
-- [ ] Charging ```In progress, working partially```
+- [ ] Charging 
 - [x] Display
 - [ ] FM
-- [x] GPU
-- [x] LTE ```Only SIM1; requires provisioning on every boot```
+- [] GPU
+- [] LTE 
 - [ ] SD 
-- [x] Touchscreen
+- [] Touchscreen
 - [x] UFS
-- [x] USB ```PD hub needed```
-- [x] Wi-Fi
+- [] USB 
+- [] Wi-Fi
 
 #### Sensors
-- [x] Accelerometer
+- [] Accelerometer
 - [ ] Fingerprint
-- [x] GPS
-- [x] Gyroscope
-- [x] Light sensor
-- [x] Magnetometer
-- [x] Proximity
+- [] GPS
+- [] Gyroscope
+- [] Light sensor
+- [] Magnetometer
+- [] Proximity
 
 
 ## Guides and requirements
