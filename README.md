@@ -17,29 +17,29 @@ Alpha, windows boot but usb without usb
 #### Features
 
 - [ ] Audio 
-- [] Battery status
-- [] Bluetooth
-- [] Brightness
+- [ ] Battery status
+- [ ] Bluetooth
+- [ ] Brightness
 - [ ] Camera
 - [ ] Charging 
 - [x] Display
 - [ ] FM
-- [] GPU
-- [] LTE 
+- [ ] GPU
+- [ ] LTE 
 - [ ] SD 
-- [] Touchscreen
+- [ ] Touchscreen
 - [x] UFS
-- [] USB 
-- [] Wi-Fi
+- [ ] USB 
+- [ ] Wi-Fi
 
 #### Sensors
-- [] Accelerometer
+- [ ] Accelerometer
 - [ ] Fingerprint
-- [] GPS
-- [] Gyroscope
-- [] Light sensor
-- [] Magnetometer
-- [] Proximity
+- [ ] GPS
+- [ ] Gyroscope
+- [ ] Light sensor
+- [ ] Magnetometer
+- [ ] Proximity
 
 
 ## Guides and requirements
