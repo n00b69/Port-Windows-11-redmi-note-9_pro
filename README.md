@@ -63,7 +63,7 @@ PC:
 
 - [platform-tools](https://developer.android.com/studio/releases/platform-tools).
 
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/degdag/Vayu-Drivers/releases/tag/v2.1.0)
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/Icesito68/7xx-Drivers)
 
 Phone:
 - [UEFI image](https://github.com/degdag/edk2-msm/releases/tag/V2.1.0)
