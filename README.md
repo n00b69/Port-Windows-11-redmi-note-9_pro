@@ -121,7 +121,7 @@ Phone:
 
 - [Rubanoxd](https://github.com/Rubanoxd) ```Made this repo and test the progress```
 
-- [Icesito68](https://github.com/Icesito68) ````Made the partitions and modified the uefi so it could boot windows```
+- [Icesito68](https://github.com/Icesito68) ```Made the partitions and modified the uefi so it could boot windows```
   
 - [Map220v](https://github.com/map220v) ```The acpi table is based on the a72```
 
