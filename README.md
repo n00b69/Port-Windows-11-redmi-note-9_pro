@@ -49,7 +49,7 @@ Alpha, windows boot but usb without usb
 
 Human:
 
-- Understand English, Spanish or Russian 
+- Understand English or Spanish
 
 - Understand how to use TWRP
 
