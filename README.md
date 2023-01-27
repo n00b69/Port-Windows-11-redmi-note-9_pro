@@ -66,7 +66,7 @@ PC:
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/) to install the [drivers](https://github.com/Icesito68/7xx-Drivers)
 
 Phone:
-- [UEFI image](https://github.com/degdag/edk2-msm/releases/tag/V2.1.0)
+- [UEFI image](soon)
 
 - [TWRP](https://forum.xda-developers.com/t/recovery-3-4-0-14-miatoll-twrp-xiaomi-redmi-note-9s-9-pro-9-pro-max-poco-m2-pro.4125487/)
 
