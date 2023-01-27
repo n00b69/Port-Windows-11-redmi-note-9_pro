@@ -94,36 +94,6 @@ Phone:
   
 </details> 
 
-<details> 
-  
-<summary><strong>Русский</strong></summary>
-
-1 - [Создание разделов](/guide/Russian/1-partition-ru.md)
-
-2 - [Установка Windows](/guide/Russian/2-install-ru.md)
-  
-</details> 
-
-<details> 
-
-<summary><strong>Українська</strong></summary>
-
-1 - [Створення розділів](guide/Ukrainian/1-partition-uk.md)
-
-2 - [Встановлення Windows](guide/Ukrainian/2-install-uk.md)
-  
-</details> 
-
-<details> 
-
-<summary><strong>Lietuvių</strong></summary>
-
-1 - [Particijų sukūrimas](guide/Lithuanian/1-partition-lt.md)
-
-2 - [Įdiegti Windows](guide/Lithuanian/2-install-lt.md)
-  
-</details> 
-
 ### Other guides:
 
 <details> 
@@ -142,29 +112,6 @@ Phone:
   
 </details> 
 
-<details> 
-
-<summary><strong>Русский</strong></summary>
-
-- [Если вы хотите обновить драйвера, следуйте этим командам](guide/Russian/update-ru.md)
-
-</details> 
-
-<details> 
-
-<summary><strong>Українська</strong></summary>
-
-- [Якщо ви хочете оновити драйвера, дотримуйтесь цих команд](guide/Ukrainian/update-uk.md)
-
-</details> 
-
-<details> 
-
-<summary><strong>Lietuvių</strong></summary>
-
-- [Jeigu norite atnaujinti tik draiverius, sekite šias komandas](guide/Lithuanian/update-lt.md)
-  
-</details> 
 
 ## Contributors
 
