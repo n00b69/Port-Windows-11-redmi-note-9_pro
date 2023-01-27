@@ -121,11 +121,13 @@ Phone:
 
 - [Rubanoxd](https://github.com/Rubanoxd) ```Made this repo and test the progress```
 
-- [Icesito68](https://github.com/Icesito68) ```Made Windows partitioning commands and made this repo```
+- [Icesito68](https://github.com/Icesito68) ````Made the partitions and modified the uefi so it could boot windows```
+  
+- [Map220v](https://github.com/map220v) ```The acpi table is based on the a72```
 
-- [Degdag](https://github.com/degdag) ```Improves UEFI and ported drivers```
+- [Degdag](https://github.com/degdag) ```Has given me a lot of information```
 
-- [halal-beef](https://github.com/halal-beef) ```Built EDK2 and modified it enough to boot Windows, also ported drivers```
+- [Halal-Beef](https://github.com/halal-beef) ```Special thanks for the help you have given me and I create the photo of the poco```
   
 - [Renegade Project](https://github.com/edk2-porting) ```Making the core of this project```
 
