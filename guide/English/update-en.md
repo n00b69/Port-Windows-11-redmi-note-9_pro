@@ -23,7 +23,7 @@ adb shell sh /sbin/msc
 
 #### Start the Windows disk manager
 
-> Once the X3 Pro is detected as a disk
+> Once the Redmi 9 pro is detected as a disk
 
 ```cmd
 diskpart
@@ -52,13 +52,13 @@ exit
 
 # Install Drivers
 
-> Replace `<vayudriversfolder>` with the location of the drivers folder
+> Replace `<miatolldriversfolder>` with the location of the drivers folder
 
 > Open cmd as administrator
 
 
 ```cmd
-.\driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
+.\driverupdater.exe -d <miatolldriversfolder>\definitions\Desktop\ARM64\Internal\miatoll.txt -r <miatolldriversfolder> -p X:
 ```
 
 
