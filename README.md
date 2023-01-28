@@ -12,7 +12,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Project status
 
-Alpha, windows boot but usb without usb
+Alpha, windows boot but without usb
 
 #### Features
 
