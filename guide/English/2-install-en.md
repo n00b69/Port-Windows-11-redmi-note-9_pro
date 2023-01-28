@@ -14,7 +14,7 @@ adb shell msc.sh
 
 #### Start the Windows disk manager
 
-> Once the X3 Pro is detected as a disk
+> Once the Redmi 9 Pro is detected as a disk
 
 ```cmd
 diskpart
@@ -24,7 +24,7 @@ diskpart
 ### Assign `X` to Windows volume
 
 #### Select the Windows volume of the phone
-> Use `list volume` to find it, it's the ones named "WINVAYU" and "ESPVAYU"
+> Use `list volume` to find it, it's the ones named "WINMIATOLL" and "ESPMIATOLL"
 
 ```diskpart
 select volume <number>
@@ -69,25 +69,12 @@ exit
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
 
-# Check what type of panel you have
-
-> Open cmd
-
-```cmd
-adb shell cat /proc/cmdline
-```
-> Look for `msm_drm.dsi_display0` almost at the bottom
-
-> If your device is `Tianma` msm_drm.dsi_display0 will be `dsi_j20s_36_02_0a_video_display`
-
-> If your device is `Huaxing` msm_drm.dsi_display0 will be `dsi_j20s_42_02_0b_video_display`, if it is, go to the drivers folder (Vayu-Drivers/components/QC8150/Device/DEVICE.SOC_QC8150.VAYU/Drivers/Touch/) and delete j20s_novatek_ts_fw01.bin, finally rename j20s_novatek_ts_fw02.bin to j20s_novatek_ts_fw01.bin
-
 # Install Drivers
 
-> Replace `<vayudriversfolder>` with the location of the drivers folder
+> Replace `<miatolldriversfolder>` with the location of the drivers folder
 
 ```cmd
-driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
+driverupdater.exe -d <miatolldriversfolder>\definitions\Desktop\ARM64\Internal\miatoll.txt -r <miatolldriversfolder> -p X:
 ```
 
   
@@ -97,8 +84,6 @@ driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
-
-  
   
 
 # Allow unsigned drivers
