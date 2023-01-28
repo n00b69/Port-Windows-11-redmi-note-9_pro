@@ -22,12 +22,6 @@ Go to TWRP settings and unmount all partitions
 adb shell
 ```
 
-### Resize the partition table
-> So that the Windows partitions would fit
-```sh
-sgdisk --resize-table 64 /dev/block/sda
-```
-
 ### Start parted
 ```sh
 parted /dev/block/sda
@@ -38,51 +32,51 @@ parted /dev/block/sda
 > You can make sure that 32 is the userdata partition number by running
 >  `print all`
 ```sh
-rm 32
+rm 18
 ```
 
 ### Create partitions
 > If you get any warning message telling you to ignore or cancel, just type i and enter
 
+#### For 64Gb models:
+
+- Create the ESP partition (stores Windows bootloader data and EFI files)
+```sh
+mkpart esp fat32 11GB 11.4GB
+```
+
+- Create the main partition where Windows will be installed to
+```sh
+mkpart win ntfs 11.4GB 42.4GB
+```
+
+- Create Android's data partition
+```sh
+mkpart userdata ext4 42.4GB 59.4GB
+```
+
+
 #### For 128Gb models:
 
 - Create the ESP partition (stores Windows bootloader data and EFI files)
 ```sh
-mkpart esp fat32 11.8GB 12.2GB
+mkpart esp fat32 11GB 11.4GB
 ```
 
 - Create the main partition where Windows will be installed to
 ```sh
-mkpart win ntfs 12.2GB 70.2GB
+mkpart win ntfs 11.4GB 71.4GB
 ```
 
 - Create Android's data partition
 ```sh
-mkpart userdata ext4 70.2GB 127GB
-```
-
-
-#### For 256Gb models:
-
-- Create the ESP partition (stores Windows bootloader data and EFI files)
-```sh
-mkpart esp fat32 11.8GB 12.2GB
-```
-
-- Create the main partition where Windows will be installed to
-```sh
-mkpart win ntfs 12.2GB 132.2GB
-```
-
-- Create Android's data partition
-```sh
-mkpart userdata ext4 132.2GB 255GB
+mkpart userdata ext4 71.4GB 123GB
 ```
 
 
 ### Make ESP partiton bootable so the EFI image can detect it
 ```sh
-set 32 esp on
+set 18 esp on
 ```
 
 ### Quit parted
