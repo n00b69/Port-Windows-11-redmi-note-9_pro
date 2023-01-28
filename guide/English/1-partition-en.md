@@ -29,7 +29,7 @@ parted /dev/block/sda
 
 
 ### Delete the `userdata` partition
-> You can make sure that 32 is the userdata partition number by running
+> You can make sure that 18 is the userdata partition number by running
 >  `print all`
 ```sh
 rm 18
